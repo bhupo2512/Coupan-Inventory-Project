@@ -1,0 +1,37 @@
+.loginForm .row, .registrationForm .row, .purchaseListRow{
+	margin-bottom:15px;
+}
+.loginForm, .registrationForm, .purchaseListRow{
+	border:1px solid #eee;
+	padding:20px;
+	border-radius: 4px;
+	background-color:#f8f9fa;
+}
+.purchaseListRow{
+	padding:10px;
+	margin-bottom:15px;
+}
+.loginFormContainer{
+	margin-top: 10%;
+	
+}
+.registrationFormContainer, {
+	margin-top: 3%;
+}
+label.error{
+	color:#c82333;
+	font-size:0.8em;
+	font-weight:600;
+	padding-left:10px;
+}
+.purchaseListContainer{
+	width:50%;
+	margin:0px auto;	
+}
+.couponAttr{
+	font-weight:bold;
+	
+}
+.buttonRow{
+	margin-bottom:10px;
+}

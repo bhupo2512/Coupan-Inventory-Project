@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>Coupon Vending Machine</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles -->
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="container">
+
+		<div class="registrationFormContainer row">
+			<div class="col-sm-6 mx-auto">
+				<form class="registrationForm" method ="post" action="registration.do">
+					<div class="row">
+						<div class="col-sm-12">
+							<h2 class="loginHeader">Register as a user</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12">
+							<label for="name" class="name">Name</label>
+							<input type="text" id="name" name="name" class="form-control" placeholder="Name" required pattern="\w+" autofocus>
+							<!-- <label for="username" class="error">Validation Error</label> -->
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12">
+							<label for="username" class="username">Username</label>
+							<input type="text" id="username" name="username" class="form-control" placeholder="Username" required autofocus>
+							<!-- <label for="username" class="error">Validation Error</label> -->
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12">
+							<label for="password" class="password">Password</label>
+							<input type="password" id="password" name="password" class="form-control" placeholder="Confirm Password" required>
+							<!-- <label for="username" class="error">Validation Error</label> -->
+
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12">
+							<label for="password" class="password">Confirm Password</label>
+							<input type="password" id="confirmPassword" class="form-control" placeholder="Confirm Password" required>
+							<!-- <label for="username" class="error">Validation Error</label> -->
+
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12">
+							<input type="submit" class="btn btn-lg btn-primary btn-block" type="submit" value="Register" />
+						</div>
+					</div>
+					<!-- <div class="row">
+						<div class="col-sm-12">
+							<a href="index.html">Already a user? Click here to login.</a>
+						</div>
+					</div> -->
+				</form>
+			</div>
+		</div>
+    </div> <!-- /container -->
+  </body>
+  <script src="js/jQuery.js"></script>
+  <script src="js/Registration.js"></script>
+</html>
